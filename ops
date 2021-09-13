@@ -1,0 +1,35 @@
+#!/bin/bash
+set -e # stop script on frist error
+
+# These commands take this form
+# ./ops [script] [option] ...rest
+
+script=${1}
+option=${2}
+if [ ! -z $script ] ; then shift ; fi
+# TODO: make this option value change between: devnet, mainnet, etc (default to devnet)
+if [ ! -z $option ] ; then shift ; fi
+rest="$@"
+
+if [ -z $script ] ; then
+  echo "please enter a command after ./ops.sh"
+
+elif [ $script == "setup" ] ; then
+  ./scripts/setup.sh $rest
+
+elif [ $script == "config-devnet" ] ; then
+  ./scripts/config-devnet.sh $rest
+
+elif [ $script == "verify-assets" ] ; then
+  ./scripts/verify-assets.sh $rest
+
+elif [ $script == "upload-assets" ] ; then
+  ./scripts/upload-assets.sh $rest
+
+elif [ $script == "create-env" ] ; then
+  ./scripts/create-env.sh $rest
+
+elif [ $script == "metaplex-verify" ] ; then
+  ./scripts/metaplex-verify.sh $rest
+
+fi

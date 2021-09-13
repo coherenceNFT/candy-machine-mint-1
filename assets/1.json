@@ -1,0 +1,65 @@
+{
+    "image": "1.image.png",
+    "name": "O.G. ShroomZon",
+    "collection": {
+        "name": "ShroomZNFT",
+        "family": "ShroomZ"
+    },
+    "attributes": [
+        {
+            "trait_type": "eyes",
+            "value": "CRYSTAL_GLASSES"
+        },
+        {
+            "trait_type": "mouth_nose",
+            "value": "STONER"
+        },
+        {
+            "trait_type": "cap_gills",
+            "value": "PLANT"
+        },
+        {
+            "trait_type": "skirt",
+            "value": "MINT_GREEN"
+        },
+        {
+            "trait_type": "stalk",
+            "value": "PLANT"
+        },
+        {
+            "trait_type": "background",
+            "value": "GALAXY"
+        },
+        {
+            "trait_type": "cap_accessories",
+            "value": "BROKEN_HORNS & THIRD_EYE_NO_COLOUR"
+        }
+    ],
+    "seller_fee_basis_points": 500,
+    "properties": {
+        "creators": [
+            {
+                "address": "vooPn27ZXENH5CfsVyyvxShiBMXGW3Yv1R7UDCmJH3j",
+                "share": 62.0
+            },
+            {
+                "address": "CXsbtdwaA4ALRPKkdZJnNtRDdQgJwrkP8dRZexiRV3ro",
+                "share": 20.0
+            },
+            {
+                "address": "EfjXoRGBvkhR3qVXt34JrCu7cQhRZQkScLVWhdF6ww4a",
+                "share": 15.5
+            },
+            {
+                "address": "4y9tNxUnChPQR91cTgQeFC8V2V7k8JNPvMBfga4EGPbz",
+                "share": 2.5
+            }
+        ],
+        "files": [
+            {
+                "uri": "1.image.png",
+                "type": "image/png"
+            }
+        ]
+    }
+}
